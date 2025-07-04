@@ -1,0 +1,27 @@
+$gray: #222222;
+$purple: #4F2984;
+$purple2: #AA86CC;
+$light-purple: #C5B4E3;
+$light-purple2: #DCD1F2;
+$light-purple3: #F5F2FB;
+
+.top_bar{background-color: $light-purple2;}
+.navbar{background-color: $light-purple3;}
+.banner-holder{background-color: $light-purple3;}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show,
+.nav-link:focus, .nav-link:hover{color:$purple}
+.navbar-nav .nav-link.active{border-bottom: 2px solid $purple;}
+.bounce ul{border-top: 1px solid $purple;border-bottom: 1px solid $purple;}
+.bounce ul li a{color: $purple;}
+.bounce ul li a:hover{border-bottom: 3px solid $purple;color: $purple;}
+.carousel-inner{border: 2px solid $purple;}
+.carousel-control-next, .carousel-control-prev{background-color:$light-purple2;}
+.footer{background-color:$gray;}
+.ftrLink ul li a:hover{color:$purple2 ;}
+.rating span{background-color: $purple;}
+.counter{background-color: $light-purple2;}
+.counter button{background-color:$gray;color: #fff;}
+.tabLinks ul li.active span{border-bottom:3px solid $purple;color: $purple;}
+.timeWrapper{border: 1px solid $purple;}
+.productPriceSec div:nth-child(2){color: $purple;}
+.checkHolder .form-check-input:checked {background-color: $gray;border-color: $gray;}
