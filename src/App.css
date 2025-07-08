@@ -168,6 +168,13 @@ li{list-style: none;}
 .productPriceSec{border-bottom: 1px solid #7A7A7A}
 .payment-method .form-check b{width:250px}
 .not-found{min-height:100vh;}
+.banner-holder img{width: 100%;}
+
+
+@media(min-width:1500px){
+.banner-holder {height: 700px;}
+.banner-holder img {width: 100%;height: 100%;object-fit: contain;object-position: center;}
+}
 
 @media(min-width:1024px){
 .shoppingBagHolder{min-height: 75vh;}
